@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1310" />
+      <stop offset="60%" stop-color="#2a1f16" />
+      <stop offset="100%" stop-color="#c7a24a" />
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.2" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)" />
+  <rect width="800" height="1000" filter="url(#noise)" opacity="0.3" />
+  <g fill="#f5f3ef" opacity="0.5">
+    <rect x="80" y="160" width="280" height="20" />
+    <rect x="80" y="200" width="360" height="16" />
+    <rect x="80" y="240" width="240" height="16" />
+  </g>
+</svg>
