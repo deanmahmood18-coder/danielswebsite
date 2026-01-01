@@ -54,10 +54,11 @@ export default function Sponsorship() {
               <MotionReveal key={tier.name} delay={index * 0.08}>
                 <div className="card p-6">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
-                    <div>
-                      <h3 className="text-2xl">{tier.name}</h3>
-                      <p className="text-muted mt-2">{tier.summary}</p>
-                    </div>
+                  <div>
+                    <h3 className="text-2xl">{tier.name}</h3>
+                    <p className="text-muted mt-2">{tier.summary}</p>
+                    <p className="text-gold text-sm mt-2">{tier.price}</p>
+                  </div>
                     <Link
                       href="/media-kit"
                       className="bg-gold text-background px-4 py-2 rounded-full text-sm font-semibold focus-ring"

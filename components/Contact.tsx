@@ -166,6 +166,7 @@ export default function Contact() {
                   Direct contact
                 </p>
                 <p className="text-2xl mt-3">{site.email}</p>
+                <p className="text-muted mt-2">{site.phone}</p>
                 <p className="text-muted mt-2">
                   Response window: 48 hours. Sponsor packs shared on request.
                 </p>
@@ -175,6 +176,12 @@ export default function Contact() {
                 className="border border-gold/60 text-ink px-5 py-3 rounded-full text-center font-semibold hover:border-gold focus-ring"
               >
                 Email Daniel's team
+              </a>
+              <a
+                href={`tel:${site.phone}`}
+                className="mt-3 border border-white/10 text-ink px-5 py-3 rounded-full text-center font-semibold hover:border-gold focus-ring"
+              >
+                Call the team
               </a>
             </div>
           </div>

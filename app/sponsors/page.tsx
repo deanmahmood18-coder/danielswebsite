@@ -18,6 +18,7 @@ export default function SponsorsPage() {
                 <div>
                   <h3 className="text-2xl">{tier.name}</h3>
                   <p className="text-muted mt-2">{tier.summary}</p>
+                  <p className="text-gold text-sm mt-2">{tier.price}</p>
                 </div>
                 <Link
                   href="/media-kit"

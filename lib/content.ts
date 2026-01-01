@@ -2,7 +2,8 @@ export const site = {
   name: 'Daniel Stoican Raj',
   title: 'Amateur boxer, turning pro soon',
   location: 'NG4 2SR, Nottingham',
-  email: 'sponsors@danielstoicanraj.com',
+  email: 'ukhaliq7@hotmail.com',
+  phone: '07963775048',
   mediaKitUrl: '/media-kit/Daniel_Stoican_Raj_Media_Kit.pdf'
 };
 
@@ -49,6 +50,7 @@ export const packages = [
   {
     name: 'Partner',
     summary: 'Brand alignment and steady visibility throughout the season.',
+    price: 'From GBP 500',
     deliverables: [
       'Logo placement on walkout kit (TBA)',
       'Social mention package (TBA)',
@@ -61,6 +63,7 @@ export const packages = [
   {
     name: 'Performance Partner',
     summary: 'Performance-led storytelling and increased media integration.',
+    price: 'From GBP 1,500',
     deliverables: [
       'Dedicated training camp content (TBA)',
       'Monthly social features',
@@ -73,6 +76,7 @@ export const packages = [
   {
     name: 'Title Sponsor',
     summary: 'Primary brand partner with top-tier placement and access.',
+    price: 'From GBP 3,000',
     deliverables: [
       'Primary logo placement on all kit (TBA)',
       'Exclusive press and interview integration',

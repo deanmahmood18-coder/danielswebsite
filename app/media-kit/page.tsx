@@ -136,6 +136,7 @@ export default function MediaKitPage() {
         />
         <div className="card p-6 text-muted">
           <p>Email: {site.email}</p>
+          <p>Phone: {site.phone}</p>
           <p>Location: NG4 2SR, Nottingham</p>
           <p>Media delivery: 48 hours</p>
         </div>
